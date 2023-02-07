@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: globalmart
+    description: clone of data in snowflake
+    database: raw_new
+    schema: globalmart
+    tables:
+      - name: customers
+        description: raw data of customers
+      - name: orders
+        description: raw data of orders
+      - name: product
+        description: raw data of products
