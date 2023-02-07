@@ -7,7 +7,6 @@ select
     o.ordercostprice,
     o.ordersellingprice,
     ordersellingprice-ordercostprice as profit,
-    {{ markup('ordersellingprice','ordercostprice') }} as markup,
     --from raw_customers
     c.customerid,
     c.customername,
