@@ -23,4 +23,4 @@ left join {{ ref('raw_customers') }} as c
 on o.customerid = c.customerid
 left join {{ ref('raw_products') }} as p 
 on o.productid = p.productid
-{{ limit_data_in_dev('orderdate') }}
+-- {{ limit_data_in_dev('orderdate') }}
